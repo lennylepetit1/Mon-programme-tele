@@ -2,8 +2,8 @@
 
 ```r
 # L'objectif de ce code est de scrapper les données du jour du site télé-loisir et d'effectuer des filtres
-# pour faciliter le choix du film qu'on souhaite regarder à la maison le soir. Un endroit spécifique est dédié aussi
-# pour les films déjà regardés avec la possibilité de mettre un commentaire
+# pour faciliter le choix du film qu'on souhaite regarder à la maison le soir. Un endroit spécifique
+# est dédié aussi pour les films déjà regardés avec la possibilité de mettre un commentaire
 
 
 ################################################################################
