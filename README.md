@@ -4,7 +4,7 @@
 # L'objectif de ce code est de scrapper les données du jour du site télé-loisir et d'effectuer des filtres
 # pour faciliter le choix du film qu'on souhaite regarder à la maison le soir. Un endroit spécifique
 # est dédié aussi pour les films déjà regardés avec la possibilité de mettre un commentaire
-
+# On s'est aidé du livre "R pour l'extraction de données sur le web" de Armel soubeiga pour la partie du scrapping.
 
 ################################################################################
 # PARTIE 1 : Scrapping des données
