@@ -62,11 +62,13 @@ data <- tibble(
   Type_de_film = types
 )
 
+# Utile pour transformer les horaires de depart
 data <- data %>%
   mutate(Heure_de_départ = gsub("h", ":", Heure_de_départ)) %>%
   mutate(Heure_de_départ = as.POSIXct(Heure_de_départ, format = "%H:%M", tz = "UTC")) %>%
   mutate(Heure_de_départ = format(Heure_de_départ, "%H:%M"))
 
+# meme chose pour les durees, qui ont un format différent des horaires de depart
 convertir_duree <- function(duree) {
   if (grepl("h", duree)) {
     duree <- gsub("h", ":", duree)
@@ -157,7 +159,7 @@ server <- function(input, output, session) {
       )
     DT::datatable(data_formatée, selection = "single")
   })
-  
+  # Pour ajouter les fims a la liste des films regardes
   observeEvent(input$ajouter_film, {
     selected_row <- input$table_films_rows_selected
     if (length(selected_row) > 0) {
@@ -176,7 +178,7 @@ server <- function(input, output, session) {
       )
     DT::datatable(mes_films_formatée, selection = "single")
   })
-  
+  #pour supprimmer les films de la liste des films regardes
   observeEvent(input$supprimer_film, {
     selected_row <- input$mes_films_rows_selected
     if (length(selected_row) > 0) {
