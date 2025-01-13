@@ -77,6 +77,14 @@ Pour créer notre application shiny, on a implémenté un user interface ainsi q
 
 Sur cette application shiny, on a dans l'onglet principal tout un ensemble de filtres à gauche, les films et leurs informations à droite. Dans un autre onglet Mes_films_regardés, on peut voir la liste des films que l'on a regardé et y laisser un commentaire.
 
+## Le Serveur
+
+Le serveur est le coeur logique de l'application. Il gère l'intéraction entre les entrées, les données que l'utilisateur a utilisé, et les résultats qui sortent de l'application.
+Il le fait en 3 étapes :
+- Prendre en charge les entrées
+-Modifier les données réactives
+-Générer la sortie
+
 ## Commentaires sur notre projet
 
 Points positifs : On a appris le web scrapping dans un exemple concret, notre interface shiny est satisfaisante et nos données sont scrappés dans un tableau de manière fluide, claire et correcte. (grâce au formatage des horaires par exemple)
