@@ -8,6 +8,6 @@ Un onglet pour sauvegarder le nom des films regardés est présent dans l'applic
 
 # Notre code final sous format R est celui nommé CODE FINAL.
 # Notre code sous format R markdown est celui nommé Rmd CODE FINAL
-# Notre diapositive de présentation porte le nom diapo.
+# Notre diapositive de présentation porte le nom code-pour-le-diapo.pdf.
 # Notre code pour les diapositives est sous le nom de Code pour le diapo.
 # Si l'on souhaite obtenir seulement le scrapping de données, le code scrapping suffit.
