@@ -1,6 +1,6 @@
 ---
 title: "Projet_Prog_Rmarkdown"
-author: "lenny lepetit, alric palazy et daria kravchenko"
+author: "lenny lepetit"
 date: "2025-01-13"
 output: html_document
 ---
