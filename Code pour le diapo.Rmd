@@ -1,6 +1,6 @@
 ---
 title: "Présentation orale projet"
-author: "Lepetit Lenny Kravchenko Daria Palazy Alric"
+author: "Lepetit Lenny"
 date: "2025-01-14"
 output: beamer_presentation
 ---
